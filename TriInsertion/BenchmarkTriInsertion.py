@@ -2,8 +2,8 @@ import os
 import time
 from numpy import mean
 
-tests = [('Python (py)', 'py Tableau\Tableau.py'),
-        ('jython (-jar)', 'Tableau\TableauJy.bat')]
+tests = [('Python (py)', 'py TriInsertion\TriInsertion.py'),
+        ('jython (-jar)', 'TriInsertion\TriInsertion.bat')]
 
 data = [] 
 plotting = True
@@ -34,5 +34,5 @@ if plotting:
 	xticks(xlocations, labels)
 	xlabel("Python Interpeter / Platform")
 	ylabel("Time (sec)")
-	title("Creation d'un Tableau de 1000000 à valeurs")
+	title("Print répété 100000 fois")
 	show()
