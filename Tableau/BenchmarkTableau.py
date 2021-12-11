@@ -2,12 +2,12 @@ import os
 import time
 from numpy import mean
 
-tests = [('Python (py)', 'python Tableau\Tableau.py'),
+tests = [('Python (py)', 'py Tableau\Tableau.py'),
         ('jython (-jar)', 'Tableau\TableauJy.bat'),
-		('Cython (c)', 'python Cython\mainTableau.py')]
+		('Cython (c)', 'py Cython\mainTableau.py')]
 
 data = [] 
-plotting = True
+plotting = False
 for label, cmd in tests:
     ret = []
     print("%s..." % label)
