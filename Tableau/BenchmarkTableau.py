@@ -3,7 +3,8 @@ import time
 from numpy import mean
 
 tests = [('Python (py)', 'python Tableau\Tableau.py'),
-        ('jython (-jar)', 'Tableau\TableauJy.bat')]
+        ('jython (-jar)', 'Tableau\TableauJy.bat'),
+		('Cython (c)', 'python Cython\mainTableau.py')]
 
 data = [] 
 plotting = True
